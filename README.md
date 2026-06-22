@@ -17,8 +17,6 @@ one place.
 
 **-> https://owenbr44.github.io/manlius-project**
 
-*(If you named your repository something other than `manlius-project`, the link
-is `https://owenbr44.github.io/YOUR-REPO-NAME`.)*
 
 ---
 
