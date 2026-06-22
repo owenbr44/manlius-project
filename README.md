@@ -17,6 +17,8 @@ one place.
 
 **-> https://owenbr44.github.io/manlius-project**
 
+*(If you named your repository something other than `manlius-project`, the link
+is `https://owenbr44.github.io/YOUR-REPO-NAME`.)*
 
 ---
 
@@ -44,10 +46,20 @@ files:
 
 - **CBA Guide** — companion guide to the cost-benefit analysis (PDF + Word)
 - **Cost-Benefit Analysis** — the full 30-year model (Excel)
-- **ADA Justifications** — the accessibility analysis (PDF + Word)
+- **ADA Justifications** — the accessibility analysis (PDF)
 - **Non-ADA Issue Explanations** — plain-language explanations of the remaining issues (PDF + Word)
 - **Slate of Options** — the full issue-by-option matrix (Excel)
 - **Communications & Outreach Strategies** — how the Town can share this with residents (PDF)
-- **Final Presentation** — the slide deck delivered to the Town (PDF + PowerPoint)
+- **Final Presentation** — the slide deck delivered to the Town (PDF)
 
 ---
+
+## Hosting notes (for whoever maintains the repo)
+
+The site runs on GitHub Pages. To publish or re-publish: **Settings -> Pages**,
+set Source to **Deploy from a branch**, branch **main**, folder **/ (root)**,
+and save. The site goes live within about a minute.
+
+To update a deliverable, drag a replacement into `deliverables/` with the same
+filename, or edit `index.html` directly on GitHub using the pencil icon. The
+site rebuilds automatically.
