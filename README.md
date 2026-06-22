@@ -1,47 +1,65 @@
 # Town of Manlius Re-envisioning Project
 
-The website-as-report for the Maxwell capstone. `index.html` is the report; the
-`deliverables/` folder holds the underlying files. All deliverables are complete.
+A Maxwell School capstone assessment of the Town of Manlius Town Hall and
+Police Station — identifying the facilities' core problems, prioritizing them,
+and laying out clear, costed options for the path forward.
+
+**Maxwell Team:** Ryan Brouchoud, Meredith Bruster, Owen Robinson, and Rob Warrick
 
 ---
 
-## Putting it online with GitHub Pages (one time, ~15 min)
+## View the project
 
-1. Make a free account at github.com.
-2. Click **New repository**. Name it something like `manlius-project`. Make it **Public**.
-3. On the new repo page, click **uploading an existing file** and drag in
-   everything from *inside* this folder — `index.html`, the `deliverables`
-   folder, the `references` folder, and this README. (Drag the inner files, not
-   the zip and not the outer `manlius-site` folder — `index.html` must sit at
-   the top level of the repo.)
-4. Click **Commit changes**.
-5. Go to **Settings -> Pages**. Under "Build and deployment," set Source to
-   **Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
-6. Wait ~1 minute. Your site is live at
-   `https://YOUR-USERNAME.github.io/manlius-project`.
+The full report lives on the project website. It presents the project
+narrative, a cost comparison of the five options, an interactive
+issue-by-option slate, every deliverable, and the complete source list — all in
+one place.
 
-That URL is your report. Share it anywhere.
+**-> https://owenbr44.github.io/manlius-project**
+
+*(If you named your repository something other than `manlius-project`, the link
+is `https://owenbr44.github.io/YOUR-REPO-NAME`.)*
 
 ---
 
-## What's in here
+## About the project
 
-The report (`index.html`) presents the project narrative, a live cost
-comparison table, an interactive issue-by-option slate, all deliverables, and a
-full reference list. The files behind it live in `deliverables/`:
+The Town of Manlius faces converging facility problems: an aging Town Hall that
+no longer meets accessibility, security, and space needs; a Police Department in
+a leased building that is too small for its staff; and a Court that lacks the
+separation and security a court facility requires.
 
-- `Manlius_CBA_Overview` — CBA Guide (PDF + Word)
-- `Manlius_CBA.xlsx` — the cost-benefit analysis model
-- `Manlius_ADA_Justifications` — ADA accessibility analysis (PDF + Word)
-- `Manlius_NonADA_Explanations` — plain-language explanations of non-ADA issues (PDF + Word)
-- `Manlius_Slate_of_Options.xlsx` — the full issue-by-option matrix
-- `Manlius_Communications_Outreach.pdf` — communications & outreach strategies
-- `Manlius_Final_Presentation` — the final slide deck (PDF + PowerPoint)
+Working from community engagement, site visits to Manlius and peer towns,
+legal research, and two commissioned professional studies, the team identified
+the issues across both buildings, sorted them by priority (legally required,
+should fix, ideally fix), and developed five options for addressing them — each
+run through a 30-year cost-benefit analysis.
 
-## Updating anything later
+The website pulls all of this together as the project's report.
 
-To replace a file: drag a new version into `deliverables/` with the same name,
-or edit `index.html` directly on GitHub (the pencil icon). The site rebuilds
-automatically within a minute. To add downloadable source files, drop them into
-the `references/` folder and link them from the References section of
-`index.html`.
+---
+
+## What's in this repository
+
+`index.html` is the report. The `deliverables/` folder holds the underlying
+files:
+
+- **CBA Guide** — companion guide to the cost-benefit analysis (PDF + Word)
+- **Cost-Benefit Analysis** — the full 30-year model (Excel)
+- **ADA Justifications** — the accessibility analysis (PDF + Word)
+- **Non-ADA Issue Explanations** — plain-language explanations of the remaining issues (PDF + Word)
+- **Slate of Options** — the full issue-by-option matrix (Excel)
+- **Communications & Outreach Strategies** — how the Town can share this with residents (PDF)
+- **Final Presentation** — the slide deck delivered to the Town (PDF + PowerPoint)
+
+---
+
+## Hosting notes (for whoever maintains the repo)
+
+The site runs on GitHub Pages. To publish or re-publish: **Settings -> Pages**,
+set Source to **Deploy from a branch**, branch **main**, folder **/ (root)**,
+and save. The site goes live within about a minute.
+
+To update a deliverable, drag a replacement into `deliverables/` with the same
+filename, or edit `index.html` directly on GitHub using the pencil icon. The
+site rebuilds automatically.
